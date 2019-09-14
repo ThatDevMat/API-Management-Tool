@@ -5,4 +5,5 @@ before_install:
   - cd API_HOST
   - npm i
 script:
+  - cd API_HOST
   - npm test
