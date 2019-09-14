@@ -2,7 +2,7 @@ language: node_js
 node_js:
   - 7
 before_install:
+  - cd API_HOST
   - npm i
 script:
-  cd API_HOST
-  npm test
+  - npm test
